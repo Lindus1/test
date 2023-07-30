@@ -45,7 +45,7 @@ for jokesss in list_of_jokes:
   del list_of_jokes[0]
   keep_alive()#запускаем flask-сервер в отдельном потоке. Подробнее ниже...
   bot.polling(non_stop=True, interval=0) #запуск бота
-  time.sleep(600)
+  time.sleep(60)
   # break
 
 
